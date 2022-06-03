@@ -6,3 +6,14 @@ For classes to have access to props
 
 - Implemented
   => "User.js" (Created a class "extends Component" to have access to "this.props")
+
+/////////////////////////////////////////////////////////////////////////////////////
+
+## 2 Working with State Events
+
+- Implemented
+  => "Users.js" (Using "constructor()" to create "State" => (Must be named "state", and has to be an "{Object}") )
+
+-------------------------------------------------- this.setState({})
+(Always returns a object)
+Provided from the imported Component (To change "state" values from the constructor)
