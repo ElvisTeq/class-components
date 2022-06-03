@@ -1,0 +1,8 @@
+## 1 Creating Class Component
+
+-------------------------------------------------- import { Component } from 'react'
+For classes to have access to props
+=> class AnyName extends Component {}
+
+- Implemented
+  => "User.js" (Created a class "extends Component" to have access to "this.props")
