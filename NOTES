@@ -17,3 +17,33 @@ For classes to have access to props
 -------------------------------------------------- this.setState({})
 (Always returns a object)
 Provided from the imported Component (To change "state" values from the constructor)
+
+/////////////////////////////////////////////////////////////////////////////////////
+
+## 3 LifeCicle of Class Based Components
+
+- Created
+  => "UserFinder.js" (Contains User Data and Functionality for the input Search)
+
+--------------------------------------- componentDidMount()
+Called once component mounted (evaluated & rendered)
+Equivalent to
+=> useEffect(..., [])
+
+--------------------------------------- componentDidUpdate()
+Called once component updated (evaluated & rendered)
+Equivalent to
+=> useEffect(..., [someValue])
+
+--------------------------------------- componentWillUnmount()
+Called right before component is unmounted (removed from DOM)
+Equivalent to
+=> useEffect(() => {return () => {...}}, [])
+
+/////////////////////////////////////////////////////////////////////////////////////
+
+## 4 Lifecycle Methods in Action
+
+- Implemented
+  => "UserFinder.js" - "componentDidMount()", "componentDidUpdate()"
+  => "User.js" - "componentWillUnmount()"

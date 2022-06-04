@@ -2,6 +2,11 @@ import classes from "./User.module.css";
 import { Component } from "react";
 
 class User extends Component {
+  // React Method for => useEffect(() => {return () => {...}}, [])
+  componentWillUnmount() {
+    console.log();
+  }
+
   render() {
     return <li className={classes.user}>{this.props.name}</li>;
   }
