@@ -47,3 +47,16 @@ Equivalent to
 - Implemented
   => "UserFinder.js" - "componentDidMount()", "componentDidUpdate()"
   => "User.js" - "componentWillUnmount()"
+
+/////////////////////////////////////////////////////////////////////////////////////
+
+## 5 Using Context in Class Based Components
+
+1). import CompName from 'componentLocation'
+
+2). ------------------------------------- static contextType = ImportedComponentName
+=> Call inside the "class"
+=> "class" will have access to the Context as "this.context.dataName"
+
+- Implemented
+  => "UserFinder.js" ()
