@@ -60,3 +60,18 @@ Equivalent to
 
 - Implemented
   => "UserFinder.js" ()
+
+/////////////////////////////////////////////////////////////////////////////////////
+
+## 6 Error handling with Class Based Component
+
+----------------------------------------- componentDidCatch() {}
+Any class component that has this Method it becomes A error boundary
+
+- Implemented
+  => "ErrorBoundary.js" (Created a class component for error handling, with componentDidCatch())
+  => "UserFinder.js" (Added error handling component in the JSX)
+
+******\*\*******\*\*\*******\*\******* Important ******\*\*******\*\*\*\*******\*\*******
+=> Error Bundaries only works on Class Based Components
+=> If a Class component contains "componentDidCatch()" is automatically a ErrorBundarie
